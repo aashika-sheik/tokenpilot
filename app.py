@@ -587,7 +587,7 @@ def page_agent(df):
         if role=="user":
             st.chat_message("user").write(msg)
         else:
-            with st.chat_message("assistant",avatar="✦"):
+            with st.chat_message("assistant"):
                 st.markdown(msg)
                 st.caption(f"Evidence: normalized telemetry · last 30 days · generated {datetime.now().strftime('%H:%M')}")
     prompt=st.chat_input("Ask why, where, what changed, or how to optimize…")
