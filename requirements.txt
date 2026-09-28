@@ -1,0 +1,11 @@
+streamlit>=1.50,<2
+pandas>=2.2,<3
+numpy>=2.0,<3
+plotly>=6.0,<7
+sqlalchemy>=2.0,<3
+bcrypt>=4.2,<5
+requests>=2.32,<3
+python-dotenv>=1.0,<2
+pydantic>=2.10,<3
+fastapi>=0.115,<1
+uvicorn[standard]>=0.34,<1

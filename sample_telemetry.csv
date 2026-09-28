@@ -1,0 +1,4 @@
+timestamp,request_id,developer_email,team,provider,model,input_tokens,output_tokens,task_type,repository,latency_ms,status
+2026-09-28T10:00:00Z,req-001,aashika@example.com,Platform,OpenAI,gpt-5,2200,800,Code generation,platform-api,920,success
+2026-09-28T10:01:00Z,req-002,rahul@example.com,Backend,Anthropic,claude-sonnet,8500,1800,Debugging,orders-api,1480,success
+2026-09-28T10:02:00Z,req-003,sarah@example.com,Frontend,OpenAI,gpt-5-mini,1200,500,Unit testing,web-app,530,success
